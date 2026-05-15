@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voting App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🗳 Voting System</h1>
+
+<div class="box" id="auth">
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<div class="box" id="voteBox" style="display:none;">
+  <h2>Vote</h2>
+  <ul id="candidates"></ul>
+</div>
+
+<div class="box">
+  <h2>Results</h2>
+  <ul id="results"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
